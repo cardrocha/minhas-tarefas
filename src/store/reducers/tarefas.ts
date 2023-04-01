@@ -28,6 +28,13 @@ const initialState: TarefasState = {
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
       titulo: 'Estudar React Redux'
+    },
+    {
+      id: 4,
+      descricao: 'Estudar ReactJs',
+      prioridade: enums.Prioridade.NORMAL,
+      status: enums.Status.PENDENTE,
+      titulo: 'Estudar módulo de ReactJs'
     }
   ]
 }
