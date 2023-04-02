@@ -17,20 +17,13 @@ const initialState: TarefasState = {
     },
     {
       id: 2,
-      descricao: 'Baixar conta no site da Prestadora de Serviço',
-      prioridade: enums.Prioridade.IMPORTANTE,
-      status: enums.Status.PENDENTE,
-      titulo: 'Pagar conta de internet'
-    },
-    {
-      id: 3,
       descricao: 'Estudar mais sobre a arquitetura flux no Redux',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
       titulo: 'Estudar React Redux'
     },
     {
-      id: 4,
+      id: 3,
       descricao: 'Estudar ReactJs',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.PENDENTE,
